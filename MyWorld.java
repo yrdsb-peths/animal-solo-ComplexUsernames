@@ -12,6 +12,7 @@ public class MyWorld extends World {
     
     public MyWorld() {
         super(600, 400, 1, false);
+        setBackground(new GreenfootImage("images/background.jpg"));
         
         // Create the elephant object
         Elephant elephant = new Elephant();
