@@ -46,7 +46,7 @@ public class Elephant extends Actor
     int imageIndex = 0;
     public void animateElephant()
     {
-        if(animationTimer.millisElapsed() < 150)
+        if(animationTimer.millisElapsed() < 100)
         {
             return;
         }
@@ -68,12 +68,12 @@ public class Elephant extends Actor
     {
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-2);
+            move(-5);
             facing = "left";
         }
         if(Greenfoot.isKeyDown("right"))
         {
-            move(2);
+            move(5);
             facing = "right";
         }
         
